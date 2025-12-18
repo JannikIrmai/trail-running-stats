@@ -8,8 +8,8 @@ from credentials import EMAIL, PASSWORD
 # ---------------------------
 # CONFIG
 # ---------------------------
-RACE_SLUG = "646.hokautmbmont-blanctds.2024"
-OUTPUT_CSV = "utmb_race_results.csv"
+RACE_SLUG = "142.hokautmbmont-blancutmb.2025"
+OUTPUT_CSV = "UTMB2025.csv"
 PAGE_SIZE = 100   # UTMB uses offset-based paging
 
 BASE_URL = f"https://api.utmb.world/races/{RACE_SLUG}/results"
